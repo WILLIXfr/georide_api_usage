@@ -40,7 +40,7 @@ elif (sys.argv[1] and sys.argv[1] == 'lock'):
   token=login()
   trackerId,trackerName=tracker_info(token)
   lock(token,trackerId)
-  print (trackerName + ' is unlocked')
+  print (trackerName + ' is locked')
 else:
   print ("Wrong Argument")
 
